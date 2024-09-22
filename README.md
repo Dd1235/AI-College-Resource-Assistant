@@ -1,6 +1,6 @@
 # AI College Resource Chat Bot
 
-This project is an AI-powered chatbot system designed to assist with academic and personal queries using **OpenAI's GPT-3.5** model and embeddings for search and retrieval. The project allows users to interact with a chatbot for academic queries, currently only implemented for semester 3 of IIIT Bangalore, as well as a personal bot providing personalized information about **Dedeepya Avancha**.
+This project is an AI-powered chatbot system designed to assist with academic and personal queries using **OpenAI's GPT-3.5** model and embeddings for search and retrieval. The project allows users to interact with a chatbot for academic queries, currently only implemented for semester 3 of IIIT Bangalore, as well as a personal bot providing personalized information about the team.
 
 ## Table of Contents
 
