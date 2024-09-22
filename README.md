@@ -17,7 +17,7 @@ This project is an AI-powered chatbot system designed to assist with academic an
   - [Run the Flask Backend](#run-the-flask-backend)
   - [Run the Streamlit Frontend](#run-the-streamlit-frontend)
 - [Future Plans](#future-plans)
-- [License](#license)
+- [License](https://github.com/Dd1235/AI-College-Resource-Assistant/blob/main/LICENSE)
 
 ## Overview
 
