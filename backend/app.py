@@ -66,7 +66,8 @@ academic_prompt_template = PromptTemplate(
 personal_prompt_template = PromptTemplate(
     input_variables=["context", "question"],
     template=(
-        "You are an assistant specialized in answering questions only related to Dedeepya Avancha, "
+        "You are an assistant specialized in answering questions only related to Dedeepya Avancha, to potential recruiters. Keep the answers professional and concise. "
+        "she made this platform and so currently the team behind this app consists of only her,"
         "a second-year IMTech Computer Science student at IIIT Bangalore. ... "
         "{context}\n\nQuestion: {question}\nAnswer:"
     ),

@@ -2,4 +2,4 @@
 .zshrc
 db/vector_stores/*
 frontend/assets/images/*
-frontend/streamlit_app.py
+frontend/__pycache__/*
