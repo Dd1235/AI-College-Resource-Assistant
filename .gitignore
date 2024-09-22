@@ -6,3 +6,4 @@ frontend/__pycache__/*
 backend/__pycache__/*
 backend/.env
 frontend/.env
+backend/db/vector_stores/*
