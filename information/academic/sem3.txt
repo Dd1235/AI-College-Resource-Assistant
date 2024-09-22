@@ -1,0 +1,24 @@
+Course: Signals and Systems
+Professor: Proj. Jyostna Bapat
+Credits: 4
+Description: Covers concepts like Fourier analysis, Laplace Transforms, and signal processing.
+
+Course: Discrete Mathematics
+Professor: Proj. Ashish Chowdary
+Credits: 4
+Description: Focuses on logic, set theory, combinatorics, graph theory, and algebraic structures.
+
+Course: Programming II
+Professor: Proj. Ajay Bakre and Proj.Vivek Yadav
+Credits: 4
+Description: Continues from Programming I, with an emphasis on object-oriented programming in C++.
+
+Course: Physics (Theory and Lab)
+Professor: Proj. Shiva Kumar Malapaka
+Credits: 4
+Description: Introduces classical mechanics, electromagnetism, and basic quantum mechanics, with laboratory experiments.
+
+Course: Math 3
+Professor: Proj. Priyanka Das
+Credits: 4
+Description: Focuses on probability and statistics.
