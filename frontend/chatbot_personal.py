@@ -1,8 +1,15 @@
+import os
+
 import requests
 import streamlit as st
+from dotenv import load_dotenv
 
+# Load environment variables from .env in development mode
+load_dotenv()
 # Backend API URL for the Personal Chatbot
-backend_url_personal = "http://localhost:5000/chatbot/personal"
+backend_url_personal = os.getenv(
+    "BACKEND_URL_PERSONAL", "http://localhost:5000/chatbot/personal"
+)
 
 
 # Function to send query to the backend

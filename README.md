@@ -126,7 +126,7 @@ Create a `.env` file with the following environment variables:
 OPENAI_API_KEY=<your-openai-api-key>
 ```
 
-###5. Create Vector Stores
+### 5. Create Vector Stores
 
 To create vector stores for academic and personal data, run:
 
@@ -142,7 +142,7 @@ For embedding we are using the `langchain` library which is a wrapper around Ope
 The OpenAI embedding model is text-embedding-3-small as it is the smallest model available and is sufficient for our use case.
 The llm used is gpt-3.5-turbo.
 
-### 5. Run the Flask Backend
+### 6. Run the Flask Backend
 
 To start the Flask backend, run:
 
@@ -150,7 +150,7 @@ To start the Flask backend, run:
 poetry run python backend/app.py
 ```
 
-### 6. Run the Streamlit Frontend
+### 7. Run the Streamlit Frontend
 
 To start the Streamlit frontend, run:
 

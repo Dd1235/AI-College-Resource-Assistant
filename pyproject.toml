@@ -29,6 +29,7 @@ flask-limiter = "^3.8.0"
 flask-cors = "^5.0.0"
 redis = "^5.0.8"
 pillow = "^10.4.0"
+gunicorn = "^23.0.0"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md
