@@ -1,6 +1,7 @@
 import logging
 import os
 
+from config import DevelopmentConfig, ProductionConfig
 from flask import Flask, jsonify, request
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
@@ -12,11 +13,18 @@ from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 # Initialize Flask App
 app = Flask(__name__)
 
+if os.getenv("FLASK_ENV") == "production":
+    app.config.from_object(ProductionConfig)
+else:
+    app.config.from_object(DevelopmentConfig)
+
+
 limiter = Limiter(
     get_remote_address,
     app=app,
     default_limits=["20 per minute, 40 per day"],  # Set default limit
 )
+
 
 # Enable logging
 logging.basicConfig(level=logging.INFO)
@@ -95,6 +103,11 @@ def query_vector_store(qa_chain, user_input):
     return response
 
 
+@app.route("/")
+def index():
+    return jsonify({"message": "Hello from Flask backend!"})
+
+
 # Academic Information Chatbot
 @app.route("/chatbot/academic", methods=["POST"])
 @limiter.limit("10 per minute, 20 per day")
@@ -135,6 +148,6 @@ def chatbot_personal():
     )
 
 
-# Run the Flask app
 if __name__ == "__main__":
-    app.run(debug=True)
+    # Cast the port to an integer (5000 is the default if PORT is not set)
+    app.run(host="0.0.0.0", port=int(os.getenv("PORT", 5000)))
