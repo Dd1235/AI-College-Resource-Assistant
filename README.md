@@ -39,31 +39,6 @@ The **AI College Resource Chat Bot** uses **OpenAI's GPT-3.5** to generate answe
 - **Personal Chat Bot**: Provides personalized information about **Dedeepya Avancha**, such as academic background, projects, and ongoing work.
 - **Vector Store for Search**: The project uses OpenAI's embeddings to convert text into vectors, which allows for efficient searching and answering of queries.
 
-## Project Structure
-
-```bash
-.
-├── backend/
-│   └── app.py                    # Flask backend to handle chat requests
-├── db/information/
-│   ├── academic/
-│   │   ├── iiit_bangalore_general_info.txt   # Academic info for IIIT Bangalore
-│   │   └── semester_3_academics.txt          # Academic info for Semester 3
-│   ├── personal/
-│   │   └── dedeepya_avancha_profile.txt      # Personal profile information
-├── frontend/
-│   ├── chatbot_academic.py        # Streamlit page for academic chatbot
-│   ├── chatbot_personal.py        # Streamlit page for personal chatbot
-│   ├── home.py                    # Streamlit page for the home (guide and future plans)
-│   └── streamlit_app.py           # Main Streamlit app to handle navigation and UI
-├── scripts/
-│   └── create_vector_store.py     # Script to create vector stores for academic/personal data
-├── .gitignore                     # Gitignore file
-├── LICENSE                        # License for the project
-├── README.md                      # Readme file (this file)
-├── poetry.lock                    # Poetry lock file for dependency management
-└── pyproject.toml                 # Poetry project configuration
-```
 
 ## Setup
 
