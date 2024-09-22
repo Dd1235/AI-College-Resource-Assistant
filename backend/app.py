@@ -1,7 +1,7 @@
 import logging
 import os
 
-# from config import DevelopmentConfig, ProductionConfig
+from config import DevelopmentConfig, ProductionConfig
 from dotenv import load_dotenv
 from flask import Flask, jsonify, request
 from flask_limiter import Limiter
@@ -14,13 +14,13 @@ from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 # Initialize Flask App
 app = Flask(__name__)
 
-# if os.getenv("FLASK_ENV") == "production":
-#     app.config.from_object(ProductionConfig)
-# else:
-#     app.config.from_object(DevelopmentConfig)
+if os.getenv("FLASK_ENV") == "production":
+    app.config.from_object(ProductionConfig)
+else:
+    app.config.from_object(DevelopmentConfig)
 
 # Load environment variables from .env in development mode
-load_dotenv()
+# load_dotenv()
 
 
 limiter = Limiter(
