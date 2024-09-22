@@ -37,11 +37,6 @@ def show_home_page():
     """
     )
 
-    # st.image(
-    #     "https://via.placeholder.com/600x300",
-    #     caption="AI Resource Chat Bot Expansion Plans",
-    # )
-
     # Footer
     st.write(
         """
