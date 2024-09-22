@@ -38,7 +38,7 @@ The **AI College Resource Chat Bot** uses **OpenAI's GPT-3.5** to generate answe
 - **Vector Store for Search**: The project uses OpenAI's embeddings to convert text into vectors, which allows for efficient searching and answering of queries.
 
 
-## Setup
+## Setup Instructions
 
 Follow these steps to set up the **AI College Resource Chat Bot** project on your local machine.
 
