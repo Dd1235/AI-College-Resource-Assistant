@@ -35,8 +35,8 @@ from flask_cors import CORS
 CORS(app)
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
-academic_vector_store_path = os.path.join(current_dir, "../db/vector_stores/academic")
-personal_vector_store_path = os.path.join(current_dir, "../db/vector_stores/personal")
+academic_vector_store_path = os.path.join(current_dir, "./db/vector_stores/academic")
+personal_vector_store_path = os.path.join(current_dir, "./db/vector_stores/personal")
 
 # Initialize the embedding model
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")

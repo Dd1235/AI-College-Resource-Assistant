@@ -1,0 +1,82 @@
+
+Semester 3 - Academics Overview
+Total Credits: 20
+Grading Scale (4-point):
+- A = 4.0
+- A- = 3.7
+- B+ = 3.4
+- B = 3.0
+- B- = 2.7
+- C+ = 2.4
+- C = 2.0
+- D = 1.0
+- F = 0.0
+
+Common Courses for CSE and ECE:
+
+1. Mathematics - 3
+   Credits: 4
+   Professor: Prof. Priyanka Das
+   Category: Mathematics and Basic Sciences
+   Level: 1
+   Description: Covers topics in Probability and Statistics including data representation, probabilistic distributions (binomial, normal, Poisson), and random variables.
+   Relevant for CGPA Calculation: Yes.
+
+2. Programming II
+   Credits: 4
+   Professor: Prof. Ajay Bakre, Prof. Vivek Yadav
+   Category: Programming
+   Level: 1
+   Description: Focuses on Object-Oriented Programming (OOP) in C++, including classes, inheritance, and polymorphism.
+   Relevant for CGPA Calculation: Yes.
+
+3. Physics (Theory and Lab)
+   Credits: 4 (3 for Theory, 1 for Lab)
+   Professor: Prof. Shiva Kumar Malapaka
+   Category: Mathematics and Basic Sciences
+   Level: 1
+   Description: Topics include classical mechanics, electromagnetism, and basic quantum mechanics. The lab covers experiments based on the theory.
+   Relevant for CGPA Calculation: Yes.
+
+4. Signals and Systems
+   Credits: 4
+   Professor: Prof. Jyostna Bapat
+   Category: Systems
+   Level: 1
+   Description: Covers topics such as Fourier analysis, Laplace Transforms, signal processing, and random signals.
+   Relevant for CGPA Calculation: Yes.
+
+CSE Core Course:
+
+1. Discrete Mathematics
+   Credits: 4
+   Professor: Prof. Ashish Chowdary
+   Category: CSE Core Engineering
+   Level: 1
+   Description: Focuses on logic, set theory, combinatorics, graph theory, and algebraic structures.
+   Relevant for CGPA Calculation: Yes.
+
+ECE Core Courses:
+
+1. Electronic Circuits
+   Credits: 2
+   Professor: Prof. Madhav Rao, Prof. Subhajit Sen
+   Category: ECE Core
+   Level: 1
+   Description: Introduces basic electronic circuits, including diodes, transistors, and operational amplifiers.
+   Relevant for CGPA Calculation: Yes.
+
+2. Electronics Lab
+   Credits: 2
+   Professor: Prof. Madhav Rao
+   Category: ECE Core
+   Level: 1
+   Description: Focuses on practical experiments with electronic circuits, including diodes, rectifiers, and operational amplifiers.
+   Relevant for CGPA Calculation: Yes.
+
+CGPA Calculation:
+To calculate the CGPA, sum the product of each course's grade point and its corresponding credit, and divide by the total number of credits (20).
+
+Formula:
+CGPA = ((G1 × C1) + (G2 × C2) + ... + (Gn × Cn)) / Total Credits
+Where G1, G2, ..., Gn are the grade points (4.0 for A, 3.7 for A-, etc.) and C1, C2, ..., Cn are the course credits.
