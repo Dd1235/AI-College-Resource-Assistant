@@ -17,6 +17,7 @@ This project is an AI-powered chatbot system designed to assist with academic an
   - [Run the Flask Backend](#run-the-flask-backend)
   - [Run the Streamlit Frontend](#run-the-streamlit-frontend)
 - [License](https://github.com/Dd1235/AI-College-Resource-Assistant/blob/main/LICENSE)
+- [Short Term Future Plans](#short-term-future-plans)
 
 ## Overview
 
@@ -125,3 +126,8 @@ poetry run streamlit run frontend/streamlit_app.py
 ```
 
 
+## Short Term Future Plans
+
+- Add user sessions, and maintain context across the conversations.
+- Hence add user authentication too.
+- Shift to storing the vector stores on cloud.
