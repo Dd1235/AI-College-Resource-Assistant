@@ -1,3 +1,5 @@
 .env
 .zshrc
-db/
+db/vector_stores/*
+frontend/assets/images/*
+frontend/streamlit_app.py
