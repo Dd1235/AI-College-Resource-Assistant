@@ -13,11 +13,10 @@ This project is an AI-powered chatbot system designed to assist with academic an
   - [Install Poetry](#install-poetry)
   - [Install Dependencies](#install-dependencies)
   - [Set Up Environment Variables](#set-up-environment-variables)
+  - [Create Vector Stores](#create-vector-stores)
   - [Run the Flask Backend](#run-the-flask-backend)
   - [Run the Streamlit Frontend](#run-the-streamlit-frontend)
-  - [Create Vector Stores](#create-vector-stores)
 - [Future Plans](#future-plans)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
@@ -132,3 +131,39 @@ To start the Streamlit frontend, run:
 ```bash
 poetry run streamlit run frontend/streamlit_app.py
 ```
+
+## Future Plans
+
+### 1. **Extend Academic Chat Bot**
+   - Expand the academic chatbot to support queries for **all semesters**, not just semester 3.
+   - Include **syllabi, grading formats, schedules**, and other academic resources for each course.
+   - Add **professor-specific information**, such as contact details and office hours.
+
+### 2. **Add Personalization**
+   - Allow users to input their own personal data, such as **grades** or **projects**, and have the chatbot remember it for future interactions.
+   - Enable the chatbot to store personalized academic progress (e.g., GPA calculations across semesters) and answer questions like "What is my overall GPA?"
+   - Add support for storing **course preferences** and **extra-curricular interests** to help the bot provide personalized suggestions.
+
+### 3. **Session Memory**
+   - Implement **session memory** so the chatbot can maintain the context of a conversation during a session. This would allow users to ask follow-up questions without repeating information (e.g., "What is my GPA?" followed by "What is the grading scale for Signals and Systems?").
+   - Add the capability to store and retrieve information across multiple sessions, so returning users can resume where they left off.
+
+### 4. **Add Support for Recruiters**
+   - Develop a separate mode for recruiters, which provides detailed student profiles for review during interviews or recruitment.
+   - Allow recruiters to ask questions related to students’ academic performance, skills, projects, and internship experience.
+   - Integrate LinkedIn and GitHub profiles for a more comprehensive view of students’ technical skills and professional background.
+
+### 5. **Performance Enhancements**
+   - Optimize the vector store and embedding retrieval for faster response times, especially as more data is added.
+   - Explore integrating more efficient, smaller models like **text-embedding-3-small** for specific use cases to balance between accuracy and performance.
+
+### 6. **Deploy a Fully Scalable Production System**
+   - Deploy the project in a fully scalable production environment using **containerization (Docker)** for easy deployment and management.
+   - Implement monitoring and logging tools to track performance and usage.
+   - Add support for **horizontal scaling** to handle increased traffic, especially if this solution is rolled out to a larger number of students or institutions.
+
+### 7. **Expand to More Institutions**
+   - Make the system adaptable to other institutions by providing a template where users can input their institution’s academic information.
+   - Allow admins or academic staff from other colleges to upload their own course data, creating a scalable resource assistant for any academic institution.
+
+
