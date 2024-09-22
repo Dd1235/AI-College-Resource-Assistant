@@ -41,7 +41,7 @@ The **AI College Resource Chat Bot** uses **OpenAI's GPT-3.5** to generate answe
 
 ## Project Structure
 
-````bash
+```bash
 .
 ├── backend/
 │   └── app.py                    # Flask backend to handle chat requests
@@ -63,7 +63,7 @@ The **AI College Resource Chat Bot** uses **OpenAI's GPT-3.5** to generate answe
 ├── README.md                      # Readme file (this file)
 ├── poetry.lock                    # Poetry lock file for dependency management
 └── pyproject.toml                 # Poetry project configuration
-
+```
 
 ## Setup
 
@@ -76,7 +76,7 @@ First, clone the repository from GitHub:
 ```bash
 git clone https://github.com/Dd1235/AI-College-Resource-Assistant.git
 cd AI-College-Resource-Assistant
-````
+```
 
 ### 2. Install Poetry
 
